@@ -1,7 +1,7 @@
-import "./styles.css";
-import Tflogo from "./TFLogo.png";
-const bool = false;
-const str1 = "just";
+//const bool = false;
+//const str1 = "just";
+import Navbar from "./Navbar";
+import Main from "./Main";
 function Example(props) {
   return (
     <div>
@@ -20,14 +20,9 @@ function Example(props) {
 
 export default function App() {
   return (
-    <div className="App">
-      <Example
-        toggleBoolean={!bool}
-        math={(1 + 20) / 3}
-        str={str1 + " another " + "string"}
-      />
-      {/* Apload an image into react app */}
-      <img src={Tflogo} />
+    <div className="container">
+      <Navbar />
+      <Main />
     </div>
   );
 }
