@@ -2,6 +2,7 @@
 //const str1 = "just";
 import Navbar from "./Navbar";
 import Main from "./Main";
+
 function Example(props) {
   return (
     <div>
@@ -20,7 +21,7 @@ function Example(props) {
 
 export default function App() {
   return (
-    <div className="container">
+    <div className="App">
       <Navbar />
       <Main />
     </div>
