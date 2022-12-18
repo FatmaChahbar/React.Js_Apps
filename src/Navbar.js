@@ -5,8 +5,10 @@ export default function Navbar() {
       <img src={logo} />
       <h1>CHAHBAR Fatma</h1>
       <h4> Full stack Developer</h4>
-      <h5>FatmaChahbar.website</h5>
-      <button type="button">Email</button>
+      <a>FatmaChahbar.website </a>
+
+      <button> Email </button>
+      <button> Linkedin</button>
     </nav>
   );
 }

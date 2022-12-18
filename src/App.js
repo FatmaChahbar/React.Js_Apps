@@ -1,8 +1,6 @@
-//const bool = false;
-//const str1 = "just";
 import Navbar from "./Navbar";
 import Main from "./Main";
-
+import Footer from "./Footer";
 function Example(props) {
   return (
     <div>
@@ -24,6 +22,7 @@ export default function App() {
     <div className="App">
       <Navbar />
       <Main />
+      <Footer />
     </div>
   );
 }
