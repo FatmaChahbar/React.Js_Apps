@@ -2,3 +2,75 @@
   font-family: sans-serif;
   text-align: center;
 }
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: #282d35;
+  color: aliceblue;
+}
+.Navbar {
+  text-align: center;
+}
+.Navbar > h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.Navbar > h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  color: #f3bf99;
+}
+.Navbar > h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #f5f5f5;
+}
+.btn1 {
+  color: #374151;
+  height: 30px;
+  width: 100px;
+}
+.main {
+  position: absolute;
+
+  width: 350px;
+  height: 300px;
+  left: 560px;
+}
+.main > h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #f5f5f5;
+}
+.main > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+
+  color: #dcdcdc;
+}
+.footer {
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}

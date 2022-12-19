@@ -1,6 +1,8 @@
+import "./styles.css";
+
 export default function Main() {
   return (
-    <div>
+    <div className="main">
       <h3>About</h3>
       <p>
         Networks & Telecommunications Engineer, Certified TensorFlow Developer
