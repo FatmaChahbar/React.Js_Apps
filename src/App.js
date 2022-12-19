@@ -1,6 +1,8 @@
 import Navbar from "./Navbar";
 import Main from "./Main";
 import Footer from "./Footer";
+import "./styles.css";
+
 function Example(props) {
   return (
     <div>
@@ -19,7 +21,7 @@ function Example(props) {
 
 export default function App() {
   return (
-    <div className="App">
+    <div>
       <Navbar />
       <Main />
       <Footer />
