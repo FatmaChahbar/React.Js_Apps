@@ -3,7 +3,7 @@ import "./styles.css";
 export default function Navbar() {
   return (
     <nav className="Navbar">
-      <img width="200px" src={logo} />
+      <img width="150px" src={logo} />
       <h1>CHAHBAR Fatma</h1>
       <h4> Full stack Developer</h4>
       <h5>FatmaChahbar.website </h5>
